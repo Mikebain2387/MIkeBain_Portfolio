@@ -1,0 +1,285 @@
+body {
+ background-color: rgb(0, 57, 65) !important;
+}
+
+#profile_img{
+ border-radius: 50%;
+ background: linear-gradient(180deg, rgba(0, 73, 83, 0.9) , rgba(0, 73, 83, 0.9)), url(../images/pexels-jplenio-1126386\ \(1\).jpg);
+ border: 5px solid rgb(63, 255, 0) ;
+ background-size: cover;
+ background-position: center;
+}
+
+
+
+.cont-1{
+
+ height: 100vh;
+}
+.about{
+  height: 100vh;
+ 
+}
+
+.project_section1{
+  height: 100vh;
+ 
+  
+ 
+}
+
+.contact_section{
+  height: 100vh;
+
+
+ }
+
+
+
+.intro-text {
+  font-family: "Jura", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.highlight{
+color: rgb(63, 255, 0);
+}
+
+.nav_1{
+position: fixed;
+ background: linear-gradient(180deg, rgba(0, 73, 83, 0.9) , rgba(0, 73, 83, 0.9)), url(../images/pexels-jplenio-1126386\ \(1\).jpg);
+ background-size: cover;
+ background-position: center;
+ background-size: cover;
+ margin: 5px;
+ padding: 5px;
+
+}
+
+
+.nav_1 a{
+ font-weight: bolder;
+ color: azure;
+ 
+
+}
+
+.nav_1 a:hover{
+color: rgb(63, 255, 0);
+}
+ .home{
+  color: azure;
+ }
+.button1{
+ padding: 5px;
+ background-color: rgba(6, 14, 16, 0.6);
+ box-shadow: 1px 1px 10px 10px rgb(63, 255, 0);
+}
+
+.box1 a{
+text-decoration: none;
+color: azure;
+}
+.box1 a:visited{
+ color: azure;
+}
+
+.box1 h1{
+ color: rgb(63, 255, 0);
+}
+.box1 li::marker{
+ color: rgb(63, 255, 0);
+}
+.box1 li{
+ color: azure;
+}
+
+
+.box1{
+ box-sizing: border-box;
+ border: 2px solid rgb(63, 255, 0);
+ border-radius: 5px;
+ box-shadow: 1px 1px 5px 5px rgb(63, 255, 0);
+ background-color: rgba(6, 14, 16, 0.6);
+}
+
+
+.social_link a{
+  color: azure;
+  box-sizing: border-box;
+ border: 2px solid rgb(63, 255, 0);
+ border-radius: 5px;
+ box-shadow: 1px 1px 5px 5px rgb(63, 255, 0);
+ background-color: rgba(6, 14, 16, 0.6);
+}
+
+.social_link a:visited{
+  color: azure !important;
+}
+
+.social_link a:hover{
+  color: rgb(63, 255, 0) !important;
+}
+
+.project_title{
+  color: azure;
+  font-weight: bolder;
+  font-family: "Jura", sans-serif;
+}
+
+
+
+
+.project_box{
+ 
+  box-sizing: border-box;
+ border: 2px solid rgb(63, 255, 0);
+ border-radius: 5px;
+ box-shadow: 1px 1px 5px 5px rgb(63, 255, 0);
+ background-color: rgba(6, 14, 16, 0.6);
+}
+
+.project_game{
+
+  box-sizing: border-box;
+ border: 2px solid rgb(63, 255, 0);
+ border-radius: 5px;
+ box-shadow: 1px 1px 5px 5px rgb(63, 255, 0);
+ background-color: rgba(6, 14, 16, 0.6)
+}
+
+.project_img{
+  padding: 30px;
+}
+
+.skill_text{
+  font-size: 20px;
+  color: azure;
+  font-family: "Jura", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bolder;
+}
+
+
+
+
+
+
+.contact-left{
+  gap: 20px;
+ }
+ 
+ 
+ .contact-left-title h3{
+  font-weight: 600;
+  color: azure;
+  font-size: 30px;
+ }
+ 
+ .contact-left-title hr{
+  border: none;
+  width: 175px;
+  height: 5px;
+ background-color: ivory;
+  border-radius: 10px;
+  margin-bottom: 20px;
+ }
+ 
+ .contact-inputs{
+  
+  height: 50px;
+  border: none;
+  outline: none;
+  padding-left: 25px;
+  font-weight: 500;
+  color: rgb(69, 67, 67);
+ 
+ }
+ 
+ input{
+  box-sizing: border-box;
+  border-radius: 25px;
+ }
+ 
+ 
+ 
+ .contact_form textarea{
+  height: 250px;
+  box-sizing: border-box;
+  border-radius: 25px;
+ }
+ 
+ .contact_form button{
+  color: rgb(63, 255, 0);
+  padding: 5px 10px 5px 10px;
+ background-color: rgba(6, 14, 16, 0.6);
+ box-shadow: 1px 1px 5px 5px rgb(63, 255, 0);
+ }
+
+
+.contact-left-title h2{
+  font-weight: 600;
+  color: rgb(63, 255, 0) ;
+  font-size: 40px;
+  margin-bottom: 5px;
+  
+ 
+ }
+ @media (max-width: 768px){
+  .contact_section{
+ padding-top: 300%;
+    
+    
+  }
+}
+  
+ 
+
+
+/* css for rpg  */
+
+
+
+#text {
+  background-color: #0a0a23;
+  color: #ffffff;
+  padding: 10px;
+}
+
+#game {
+  max-width: 500px;
+  max-height: 400px;
+  background-color: #ffffff;
+  color: #ffffff;
+  margin: 30px auto 0px;
+  padding: 10px;
+}
+
+#controls,
+#stats {
+  border: 1px solid #0a0a23;
+  padding: 5px;
+  color: #0a0a23;
+}
+
+#monsterStats {
+  display: none;
+  border: 1px solid #0a0a23;
+  padding: 5px;
+  color: #ffffff;
+  background-color: #c70d0d;
+}
+
+.stat {
+  padding-right: 10px;
+}
+
+#game button {
+  cursor: pointer;
+  color: #0a0a23;
+  background-color: #feac32;
+  background-image: linear-gradient(#fecc4c, #ffac33);
+  border: 3px solid #feac32;
+}
