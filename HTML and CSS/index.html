@@ -33,232 +33,218 @@
         </nav>
       </div>
     </div>
-    <section id="home">
-      <div class="container home cont-1 mt-3 mb-5">
-        <div class="row">
-          <div class="col-12 col-lg-1"></div>
 
-          <h1 class="intro-text col-12 col-lg-6 pt-5 text-center text-lg-end">
-            Hi, My name is <span class="highlight">Michael Bain</span>. I am a
-            full stack web developer. I build user friendly websites using HTML,
-            CSS, Bootstrap, and JavaScript; with an emphasis on quality, speed,
-            and customer satisfaction Check out my work and let's collaborate.
-            <br />
-            <a href="#projects">
-              <button class="mt-5 highlight button1 rounded">My Work</button>
-            </a>
-          </h1>
-          <div class="col-8 mt-5 mx-auto col-lg-3">
-            <img
-              class="img-fluid"
-              id="profile_img"
-              src="../images/profilepic.png"
-              alt=""
+    <div class="container home cont-1 mt-3 mb-5" id="home">
+      <div class="row">
+        <div class="col-12 col-lg-1"></div>
+
+        <h1 class="intro-text col-12 col-lg-6 pt-5 text-center text-lg-end">
+          Hi, My name is <span class="highlight">Michael Bain</span>. I am a
+          full stack web developer. I build user friendly websites using HTML,
+          CSS, Bootstrap, and JavaScript; with an emphasis on quality, speed,
+          and customer satisfaction Check out my work and let's collaborate.
+          <br />
+          <a href="#projects">
+            <button class="mt-5 highlight button1 rounded">My Work</button>
+          </a>
+        </h1>
+        <div class="col-8 mt-5 mx-auto col-lg-3">
+          <img
+            class="img-fluid"
+            id="profile_img"
+            src="../images/profilepic.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="container about mt-5" id="about">
+      <div class="row">
+        <div class="col-xl-1 mt-5 col-12"></div>
+        <div class="box1 col-12 mt-lg-5 col-xl-4">
+          <h1 class="text-center pt-2">Education</h1>
+          <h3>
+            <ul>
+              <li class="m-2">
+                <a href="https://mscoding.org/" target="_blank"
+                  >Mississippi Coding Academy</a
+                >
+              </li>
+              <li class="m-2">
+                <a href="https://www.aidt.edu/" target="_blank"
+                  >Alabama Industrial Development Training</a
+                >
+              </li>
+              <li class="m-2">
+                <a href="https://www.ua.edu/" target="_blank"
+                  >The University Of Alabama</a
+                >
+              </li>
+              <li class="m-2">
+                <a href="https://www.coastalalabama.edu/" target="_blank"
+                  >Faulkner State Community College</a
+                >
+              </li>
+            </ul>
+          </h3>
+        </div>
+        <div class="col-lg-2 mt-lg-5"></div>
+
+        <div class="box1 col-12 mt-5 col-xl-4">
+          <h1 class="text-center pt-2">Work Experience</h1>
+          <h3>
+            <ul>
+              <li class="m-2">Huntington Ingalls Industries</li>
+              <li class="m-2">Aker Philadelphia Shipyard</li>
+              <li class="m-2">Great Lakes Dredge & Dock</li>
+              <li class="m-2">Mitternight Boilerworks</li>
+              <li class="m-2">BAE Systems</li>
+            </ul>
+          </h3>
+        </div>
+      
+      
+        <div class="social_link col-6 mt-5 text-center">
+          <a
+            class="nav-link"
+            href="https://github.com/Mikebain2387"
+            target="_blank"
+          >
+            <h1>GitHub</h1></a
+          >
+        </div>
+
+        <div class="social_link mt-5 col-6 text-center">
+          <a
+            class="nav-link"
+            href="https://www.linkedin.com/in/michael-bain-9b9402294/"
+            target="_blank"
+          >
+            <h1>Linkedin</h1></a
+          >
+        </div>
+      </div>
+    </div>
+
+    <div class="container project project_section1" id="projects">
+      <div class="row">
+        <div class="section_title col-12 text-center">
+          <h1 class="project_title">Projects</h1>
+        </div>
+        <div class="project_box mt-lg-5 col-12 ms-lg-5 col-lg-3">
+          <img
+            class="img-fluid project_img"
+            src="../images/airbox_project_image.png"
+            alt=""
+          />
+          <h4 class="skill_text text-center">HTML, CSS, Bootstrap</h4>
+        </div>
+        <div class="col-1"></div>
+        <div class="project_box col-12 mt-5 col-lg-3">
+          <img
+            class="img-fluid project_img"
+            src="../images/mag_project.png"
+            alt=""
+          />
+          <h4 class="skill_text text-center">HTML, CSS</h4>
+        </div>
+        <div class="col-1"></div>
+        <div class="project_box col-12 mt-5 col-lg-3">
+          <img
+            class="img-fluid project_img"
+            src="../images/detroix_project_image.png"
+            alt=""
+          />
+          <h4 class="skill_text text-center">HTML, CSS, Bootstrap</h4>
+        </div>
+      
+
+      
+        <div class="col-12 mt-5 pb-5">
+          <div class="project_game col-lg-6 col-12 mx-auto">
+            <div id="game">
+              <div id="stats">
+                <span class="stat"
+                  >XP: <strong><span id="xpText">0</span></strong></span
+                >
+                <span class="stat"
+                  >Health:
+                  <strong><span id="healthText">100</span></strong></span
+                >
+                <span class="stat"
+                  >Gold: <strong><span id="goldText">50</span></strong></span
+                >
+              </div>
+              <div id="controls">
+                <button class="game_button" id="button1">Go to store</button>
+                <button class="game_button" id="button2">Go to cave</button>
+                <button class="game_button" id="button3">Fight dragon</button>
+              </div>
+              <div id="monsterStats">
+                <span class="stat"
+                  >Monster Name: <strong><span id="monsterName"></span></strong
+                ></span>
+                <span class="stat"
+                  >Health: <strong><span id="monsterHealth"></span></strong
+                ></span>
+              </div>
+              <div id="text">
+                Welcome to Dragon Repeller. You must defeat the dragon that is
+                preventing people from leaving the town. You are in the town
+                square. Where do you want to go? Use the buttons above.
+              </div>
+            </div>
+            <h4 class="skill_text text-center">HTML, CSS, JavaScript</h4>
+          </div>
+        </div>
+        <script src="../HTML and CSS/script.js"></script>
+      
+    </div>
+
+    <div class="container contact_section mt-5 pt-lg-5" id="contact">
+      <div class="row">
+        <div class="contact_form mx-auto col-lg-6 col-md-8 col-12">
+          <form
+            action="https://api.web3forms.com/submit"
+            method="POST"
+            class="contact-left d-flex flex-column align-items-start"
+          >
+            <div class="contact-left-title" >
+              <h2>Interested in Working Together</h2>
+              <h3>Message Me</h3>
+              <hr />
+            </div>
+            <input
+              type="hidden"
+              name="access_key"
+              value="54fc22e3-2b2d-4402-94a3-68bf24ee93b9"
             />
-          </div>
+            <input
+              type="text"
+              name="name"
+              placeholder="Your Name"
+              class="contact-inputs name_1 w-100"
+              required
+            />
+            <input
+              type="email"
+              name="Your Email"
+              placeholder="Your Email"
+              class="contact-inputs email_1 w-100"
+              required
+            />
+            <textarea
+              name="message"
+              placeholder="Your Message"
+              class="contact-inputs message_1 w-100"
+              required
+            ></textarea>
+            <button class="rounded " type="submit">Submit</button>
+          </form>
+        
         </div>
       </div>
-    </section>
-    <section id="about">
-      <div class="container about mt-5">
-        <div class="row">
-          <div class="col-xl-1 mt-5 col-12"></div>
-          <div class="box1 col-12 mt-lg-5 col-xl-4">
-            <h1 class="text-center pt-2">Education</h1>
-            <h3>
-              <ul>
-                <li class="m-2">
-                  <a href="https://mscoding.org/" target="_blank"
-                    >Mississippi Coding Academy</a
-                  >
-                </li>
-                <li class="m-2">
-                  <a href="https://www.aidt.edu/" target="_blank"
-                    >Alabama Industrial Development Training</a
-                  >
-                </li>
-                <li class="m-2">
-                  <a href="https://www.ua.edu/" target="_blank"
-                    >The University Of Alabama</a
-                  >
-                </li>
-                <li class="m-2">
-                  <a href="https://www.coastalalabama.edu/" target="_blank"
-                    >Faulkner State Community College</a
-                  >
-                </li>
-              </ul>
-            </h3>
-          </div>
-          <div class="col-lg-2 mt-lg-5"></div>
-
-          <div class="box1 col-12 mt-5 col-xl-4">
-            <h1 class="text-center pt-2">Work Experience</h1>
-            <h3>
-              <ul>
-                <li class="m-2">Huntington Ingalls Industries</li>
-                <li class="m-2">Aker Philadelphia Shipyard</li>
-                <li class="m-2">Great Lakes Dredge & Dock</li>
-                <li class="m-2">Mitternight Boilerworks</li>
-                <li class="m-2">BAE Systems</li>
-              </ul>
-            </h3>
-          </div>
-          <div class="row mt-5">
-            <div class="social_link col-6 mt-5 text-center">
-              <a
-                class="nav-link"
-                href="https://github.com/Mikebain2387"
-                target="_blank"
-              >
-                <h1>GitHub</h1></a
-              >
-            </div>
-
-            <div class="social_link mt-5 col-6 text-center">
-              <a
-                class="nav-link"
-                href="https://www.linkedin.com/in/michael-bain-9b9402294/"
-                target="_blank"
-              >
-                <h1>Linkedin</h1></a
-              >
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="projects">
-      <div class="project_section1">
-        <div class="container project">
-          <div class="row">
-            <div class="section_title col-12 text-center">
-              <h1 class="project_title">Projects</h1>
-            </div>
-            <div class="project_box mt-lg-5 col-12 ms-lg-5 col-lg-3">
-              <img
-                class="img-fluid project_img"
-                src="../images/airbox_project_image.png"
-                alt=""
-              />
-              <h4 class="skill_text text-center">HTML, CSS, Bootstrap</h4>
-            </div>
-            <div class="col-1"></div>
-            <div class="project_box col-12 mt-5 col-lg-3">
-              <img
-                class="img-fluid project_img"
-                src="../images/mag_project.png"
-                alt=""
-              />
-              <h4 class="skill_text text-center">HTML, CSS</h4>
-            </div>
-            <div class="col-1"></div>
-            <div class="project_box col-12 mt-5 col-lg-3">
-              <img
-                class="img-fluid project_img"
-                src="../images/detroix_project_image.png"
-                alt=""
-              />
-              <h4 class="skill_text text-center">HTML, CSS, Bootstrap</h4>
-            </div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-12 mt-5 pb-5">
-              <div class="project_game col-lg-6 col-12 mx-auto">
-                <div id="game">
-                  <div id="stats">
-                    <span class="stat"
-                      >XP: <strong><span id="xpText">0</span></strong></span
-                    >
-                    <span class="stat"
-                      >Health:
-                      <strong><span id="healthText">100</span></strong></span
-                    >
-                    <span class="stat"
-                      >Gold:
-                      <strong><span id="goldText">50</span></strong></span
-                    >
-                  </div>
-                  <div id="controls">
-                    <button class="game_button" id="button1">
-                      Go to store
-                    </button>
-                    <button class="game_button" id="button2">Go to cave</button>
-                    <button class="game_button" id="button3">
-                      Fight dragon
-                    </button>
-                  </div>
-                  <div id="monsterStats">
-                    <span class="stat"
-                      >Monster Name:
-                      <strong><span id="monsterName"></span></strong
-                    ></span>
-                    <span class="stat"
-                      >Health: <strong><span id="monsterHealth"></span></strong
-                    ></span>
-                  </div>
-                  <div id="text">
-                    Welcome to Dragon Repeller. You must defeat the dragon that
-                    is preventing people from leaving the town. You are in the
-                    town square. Where do you want to go? Use the buttons above.
-                  </div>
-                </div>
-                <h4 class="skill_text text-center">HTML, CSS, JavaScript</h4>
-              </div>
-            </div>
-            <script src="../HTML and CSS/script.js"></script>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="contacts ">
-      <div class="container contact_section mt-lg-5 pt-lg-5">
-        <div class="row">
-          <div class="contact_form mx-auto col-lg-6 col-md-8 col-12">
-            <form
-              action="https://api.web3forms.com/submit"
-              method="POST"
-              class="contact-left d-flex flex-column align-items-start"
-            >
-              <div class="contact-left-title" id="contact">
-                <h2>Interested in Working Together</h2>
-                <h3>Message Me</h3>
-                <hr />
-              </div>
-              <input
-                type="hidden"
-                name="access_key"
-                value="54fc22e3-2b2d-4402-94a3-68bf24ee93b9"
-              />
-              <input
-                type="text"
-                name="name"
-                placeholder="Your Name"
-                class="contact-inputs name_1 w-100"
-                required
-              />
-              <input
-                type="email"
-                name="Your Email"
-                placeholder="Your Email"
-                class="contact-inputs email_1 w-100"
-                required
-              />
-              <textarea
-                name="message"
-                placeholder="Your Message"
-                class="contact-inputs message_1 w-100"
-                required
-              ></textarea>
-              <button class="rounded mb-2" type="submit">Submit</button>
-            </form>
-            <br />
-          </div>
-        </div>
-      </div>
-    </section>
+    </div>
   </body>
 </html>
