@@ -9,7 +9,7 @@ body {
   background-size: cover;
   background-position: center;
  }
-
+ @media (min-width: 900px){
  .profile_pic { 
 	animation-name: floating;
 	animation-duration: 5s;
@@ -23,6 +23,22 @@ body {
 	0% { transform: translate(0, 0px); }
 	50% { transform: translate(5px, 15px); }
 	100% { transform: translate(0, -0px); } 
+}
+
+.home, .about, .contact_form{
+  padding-top:100px;
+}
+
+.project{
+  padding-top:40px;
+}
+
+
+.project_box:hover{
+  transition: all .3s ease-in-out;
+      transform: scale(1.2);
+}
+
 }
  
  .cont-1, .about, .project_section1, .contact_section {
@@ -71,7 +87,7 @@ body {
 
  .button1:hover{
   transition: all .3s ease-in-out;
-      transform: scale(1.2);
+      transform: scale(.9);
 }
 
  
@@ -123,7 +139,8 @@ body {
  
  .project_title{
    color: azure;
-   font-weight: bolder;
+   font-size: 50px;
+   font-weight: 900;
    font-family: "Jura", sans-serif;
  }
  
@@ -132,24 +149,21 @@ body {
  
  .project_box{
   box-sizing: border-box;
-  border: 2px solid rgb(63, 255, 0);
+  border: 5px solid rgb(63, 255, 0);
   border-radius: 5px;
-  box-shadow: 1px 1px 5px 5px rgb(63, 255, 0);
+  
   background-color: rgba(6, 14, 16, 0.6);
  }
 
- .project_box:hover{
-  transition: all .3s ease-in-out;
-      transform: scale(1.2);
-}
+
 
  
  .project_game{
  
    box-sizing: border-box;
-  border: 2px solid rgb(63, 255, 0);
+  border: 5px solid rgb(63, 255, 0);
   border-radius: 5px;
-  box-shadow: 1px 1px 5px 5px rgb(63, 255, 0);
+  
   background-color: rgba(6, 14, 16, 0.6);
  }
  
@@ -214,15 +228,21 @@ body {
   }
 
   textarea:focus {
-    border: 4px solid rgb(64, 255, 0)
+    border: 4px solid rgb(64, 255, 0);
+    
   }
   
   
   .contact_form button{
    color: rgb(63, 255, 0);
-   padding: 5px 10px 5px 10px;
+   padding: 5px 20px 5px 20px;
   background-color: rgba(6, 14, 16, 0.6);
   box-shadow: 1px 1px 5px 5px rgb(63, 255, 0);
+  font-size: 20px;
+  }
+
+  .contact_button:active { 
+      transform: scale(0.98); 
   }
  
  
