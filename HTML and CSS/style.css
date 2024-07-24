@@ -4,7 +4,7 @@ body {
  
  #profile_img{
   border-radius: 50%;
-  background: linear-gradient(180deg, rgba(0, 73, 83, 0.9) , rgba(0, 73, 83, 0.9)), url(../images/pexels-jplenio-1126386\ \(1\).jpg);
+  background: linear-gradient(180deg, rgba(0, 73, 83, 0.7) , rgba(0, 73, 83, 0.7)), url(../images/pexels-jplenio-1126386\ \(1\).jpg);
   border: 5px solid rgb(63, 255, 0) ;
   background-size: cover;
   background-position: center;
@@ -58,7 +58,7 @@ body {
  
  .nav_1{
  position: fixed;
-  background: linear-gradient(180deg, rgba(0, 73, 83, 0.9) , rgba(0, 73, 83, 0.9)), url(../images/pexels-jplenio-1126386\ \(1\).jpg);
+  background: linear-gradient(180deg, rgba(0, 73, 83, 0.7) , rgba(0, 73, 83, 0.7)), url(../images/pexels-jplenio-1126386\ \(1\).jpg);
   background-size: cover;
   background-position: center;
   background-size: cover;
