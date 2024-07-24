@@ -9,6 +9,21 @@ body {
   background-size: cover;
   background-position: center;
  }
+
+ .profile_pic { 
+	animation-name: floating;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+	margin-left: 10px;
+	margin-top: 5px;
+}
+
+@keyframes floating{
+	0% { transform: translate(0, 0px); }
+	50% { transform: translate(5px, 15px); }
+	100% { transform: translate(0, -0px); } 
+}
  
  .cont-1, .about, .project_section1, .contact_section {
  height: 100vh;
@@ -116,6 +131,12 @@ body {
   box-shadow: 1px 1px 5px 5px rgb(63, 255, 0);
   background-color: rgba(6, 14, 16, 0.6);
  }
+
+ .project_box:hover{
+  transition: all .3s ease-in-out;
+      transform: scale(1.2);
+}
+
  
  .project_game{
  
