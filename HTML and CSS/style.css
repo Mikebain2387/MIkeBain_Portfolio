@@ -170,6 +170,15 @@ body {
  .project_img{
    padding: 30px;
  }
+
+.project a{
+  text-decoration: none;
+
+}
+
+
+
+
  
  .skill_text{
    font-size: 20px;
